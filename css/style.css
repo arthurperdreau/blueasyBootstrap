@@ -1,0 +1,12 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.background-image{
+    height: 80vh;
+    background-image:linear-gradient(black, white), url("../images/champ.png");
+    background-blend-mode: saturation;
+    background-repeat: no-repeat;
+    background-position: center;
+}
