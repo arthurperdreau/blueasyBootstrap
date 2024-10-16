@@ -1,12 +1,188 @@
 body,html{
     padding: 0;
     margin: 0;
-    font-family: "Roboto Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Roboto Light", sans-serif;
 }
 .background-image{
-    height: 80vh;
-    background-image:linear-gradient(black, white), url("../images/champ.png");
+    height: 100vh;
+    background-image:linear-gradient(black, white), url("../images/HERO.jpg");
     background-blend-mode: saturation;
     background-repeat: no-repeat;
     background-position: center;
+}
+.hauteur-bandeau{
+    height: 15vh;
+    padding-right: 10vh;
+    padding-left: 10vh;
+}
+.citation{
+    height: 85vh;
+}
+
+.page2{
+    height:65vh;
+    background-color: rgba(75,202,255,255);
+}
+.services{
+
+    margin-left: 10vw;
+    padding-top: 4vw;
+    margin-bottom: 3vw;
+}
+.carte{
+    border: none;
+    width: 18vw;
+    padding-right: 2vw;
+    height: 35vh;
+    background-color: rgba(75,202,255,255);
+
+}
+.gifService{
+    width: 3vw;
+    height: 6vh;
+}
+.text-card{
+    text-align: justify;
+}
+.espacement-gauche{
+    padding-left: 2.5vw;
+}
+.page3{
+    height: 90vh;
+}
+.taille-portfolio{
+    height: 75vh;
+}
+.photoPortfolio{
+    height: 25vh;
+    width: 18vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.espacement-pf{
+    margin-left: 8vw;
+    margin-right: 10vw;
+    padding-top: 9vh;
+    padding-bottom: 9vh;
+}
+.espacement-droit-portfolio{
+    margin-right: 3vw;
+}
+.page4{
+    height: 70vh;
+    background-color: rgba(81,95,103,255);
+}
+.espacement-default{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.monBouton{
+    color: rgba(53,63,70,255);
+    border: rgba(53,63,70,255) 3px solid;
+    height: 5.5vh;
+    width: 11vw;
+    background-color:rgba(81,95,103,255) ;
+}
+.imageVideo{
+    height: 50vh;
+    width: 40vw;
+}
+.page5{
+    background-color: rgba(75,202,255,255);
+    height: 40vh;
+}
+.twitter{
+    margin-left: 9vw;
+}
+.twitter-navbar{
+    height: 15vh;
+}
+.twitter-photo{
+    margin-right: 10vw;
+}
+.espacement-page5{
+    margin-left: 10vw;
+}
+.page6{
+    height: 50vh;
+    background-color: rgba(140,179,215,255);
+}
+.espacement-Joe{
+    margin-left: 9vw;
+    margin-right: 10vw;
+}
+.page7{
+    height: 40vh;
+}
+.espacement-Testimonials{
+    margin-right: 7vw;
+}
+.page8{
+    height: 85vh;
+    background-color: rgba(140,179,215,255);
+}
+.saisi{
+    margin-top: 1vh;
+    margin-bottom: 1.5vh;
+    height: 5vh;
+    width: 37vw;
+    background-color:rgba(140,179,215,255) ;
+}
+.message{
+    margin-top: 1vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    width: 80vw;
+    margin-bottom: 2vh;
+}
+.saisiArea{
+    width: 80vw;
+    height: 20vh;
+    background-color:rgba(140,179,215,255) ;
+    margin-top: 1vh;
+}
+.bouton2{
+    margin-left: 10vw;
+    width: 20vw;
+    height: 7vh;
+    background-color: rgba(15,202,235,255);
+}
+.page9{
+    background-color: rgba(62,81,91,255);
+    height:20vh;
+    color: rgba(137,141,143,255);
+    padding-left: 10vw;
+    padding-right: 10vw;
+    word-spacing: 0.5vw;
+}
+.soulignementBlanc{
+    position: relative;
+    line-height: 1.2em;
+}
+.soulignementBlanc:before {
+    position: absolute;
+    left: 0;
+    top: 1.4em;
+    height: 0;
+    width: 70px;
+    content: '';
+    border-top: 2px solid white;
+}
+.soulignementNoir{
+    position: relative;
+    line-height: 1.2em;
+}
+.soulignementNoir:before {
+    position: absolute;
+    left: 0;
+    top: 1.4em;
+    height: 0;
+    width: 70px;
+    content: '';
+    border-top: 2px solid #000000;
+}
+.portfolio{
+    margin-left: 3.5vw;
 }
